@@ -1,18 +1,57 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Favorite Cats</title>
-</head>
+    <style>
+        body {
+            background-color: rgb(244, 225, 225);
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            text-align: center;
+        }
 
-<body style="background-color:rgb(244, 225, 225)">
+        h2 {
+            color: #5a3a3a;
+        }
+
+        .links {
+            margin-top: 30px;
+        }
+
+        a {
+            display: inline-block;
+            margin: 10px 20px;
+            padding: 10px 20px;
+            text-decoration: none;
+            border: 2px solid;
+            background-color: white;
+            font-size: 18px;
+        }
+
+        .glasha {
+            color: rgb(76, 60, 45);
+            border-color: rgb(76, 60, 45);
+        }
+
+        .frosya {
+            color: rgb(201, 112, 211);
+            border-color: rgb(201, 112, 211);
+        }
+
+        a:hover {
+            background-color: #fef5f5;
+        }
+    </style>
+</head>
+<body>
     <h2><b>Мои любимые кошки</b></h2>
-    <a href="glashaTemp.html" style="color:rgb(76, 60, 45)">Глаша</a>
-    <a href="frosyaTemp.html" style="color:rgb(201, 112, 211)">Фрося</a>
+    
+    <div class="links">
+        <a href="glashaTemp.html" class="glasha">Глаша</a>
+        <a href="frosyaTemp.html" class="frosya">Фрося</a>
+    </div>
 
 </body>
-
 </html>
